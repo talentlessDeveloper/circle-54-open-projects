@@ -29,6 +29,16 @@ const users = [
     imageUrl:
       'https://images.unsplash.com/photo-1491349174775-aaafddd81942?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHBlcnNvbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60',
   },
+  {
+    firstName: 'Larry',
+    lastName: 'Cole',
+    city: 'Abuja',
+    country: 'Nigeria',
+    hobbies: ['sleeping', 'surfing', 'smiling'],
+    email: 'larrycole.ans@axel.com',
+    imageURL: 'https://images.unsplash.com/photo-1687360440102-78d15c3e5045?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1332&q=80',
+    
+  }
 ];
 
 export { users };
