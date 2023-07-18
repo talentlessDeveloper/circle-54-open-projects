@@ -36,9 +36,39 @@ const users = [
     country: 'Nigeria',
     hobbies: ['sleeping', 'surfing', 'smiling'],
     email: 'larrycole.ans@axel.com',
-    imageURL: 'https://images.unsplash.com/photo-1687360440102-78d15c3e5045?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1332&q=80',
-    
-  }
+    imageUrl: 'https://images.unsplash.com/photo-1687360440102-78d15c3e5045?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1332&q=80',
+
+  },
+  {
+    firstName: 'Justin',
+    lastName: 'Perkins',
+    city: 'Los Angeles',
+    country: 'USA',
+    hobbies: ['Hiking', 'Baeaway', 'Music'],
+    email: 'justinperkins@gmail.com',
+    imageUrl: 'https://images.unsplash.com/photo-1687360440102-78d15c3e5045?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1332&q=80',
+
+  },
+  {
+    firstName: 'Robin',
+    lastName: 'Høj',
+    city: 'Austin',
+    country: 'USA',
+    hobbies: ['Acroyoga', 'Acting', 'Animating'],
+    email: 'rHoj@yahoo.com',
+    imageUrl: 'https://unsplash.com/photos/sJZzZSrqyeQ',
+
+  },
+  {
+    firstName: 'Troels',
+    lastName: 'Toft',
+    city: 'Helsingor',
+    country: 'Denmark',
+    hobbies: ['Anime', 'Art', 'Card games'],
+    email: 'ttoft125@AltSchl.io',
+    imageUrl: 'https://unsplash.com/photos/a-man-sitting-at-a-desk-with-a-cell-phone-HHGOrQVME-s',
+
+  },
 ];
 
 export { users };
