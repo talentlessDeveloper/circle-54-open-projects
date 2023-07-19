@@ -57,6 +57,24 @@ const users = [
     email: 'olahaid.mx@axel.com',
     imageURL: 'https://media.istockphoto.com/id/1291763869/photo/cant-wait-to-smash-more-goals-tomorrow.jpg?s=612x612&w=0&k=20&c=CKm444pC76ZXaTBLCILyuv1sTf3JkejD37ZiulJlBPg=',
   },
+  {
+    firstName: 'Chris',
+    lastName: 'Benoit',
+    city: 'Bali',
+    country: 'Croatia',
+    hobbies: ['skating', 'hacking', 'playing'],
+    email: 'chrisbenoit.mx@axel.com',
+    imageURL: 'https://plus.unsplash.com/premium_photo-1688497830987-e4f7ce4da50b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80',
+  },
+  {
+    firstName: 'Anastasia',
+    lastName: 'Vladimirovna',
+    city: 'Krasnodar',
+    country: 'Russia',
+    hobbies: ['driving', 'swimming', 'reading'],
+    email: 'anastasia.vlad.mx@axel.com',
+    imageURL: 'https://images.unsplash.com/photo-1689327021554-6c223aba4bfb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80',
+  },
 
   {
     firstName: 'Alex',
