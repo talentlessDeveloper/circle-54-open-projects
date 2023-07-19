@@ -49,6 +49,28 @@ const users = [
     imageUrl: 'https://images.unsplash.com/photo-1687360440102-78d15c3e5045?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1332&q=80',
 
   },
+<<<<<<< HEAD
+=======
+  {
+    firstName: 'Chris',
+    lastName: 'Benoit',
+    city: 'Bali',
+    country: 'Croatia',
+    hobbies: ['skating', 'hacking', 'playing'],
+    email: 'chrisbenoit.mx@axel.com',
+    imageURL: 'https://plus.unsplash.com/premium_photo-1688497830987-e4f7ce4da50b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80',
+  },
+  {
+    firstName: 'Anastasia',
+    lastName: 'Vladimirovna',
+    city: 'Krasnodar',
+    country: 'Russia',
+    hobbies: ['driving', 'swimming', 'reading'],
+    email: 'anastasia.vlad.mx@axel.com',
+    imageURL: 'https://images.unsplash.com/photo-1689327021554-6c223aba4bfb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80',
+  },
+
+>>>>>>> 8eac864 (added two more users)
   {
     firstName: 'Robin',
     lastName: 'Høj',
