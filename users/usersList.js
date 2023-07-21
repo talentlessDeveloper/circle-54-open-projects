@@ -30,26 +30,6 @@ const users = [
       "https://images.unsplash.com/photo-1491349174775-aaafddd81942?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHBlcnNvbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
   },
   {
-<<<<<<< HEAD
-    firstName: 'Larry',
-    lastName: 'Cole',
-    city: 'Abuja',
-    country: 'Nigeria',
-    hobbies: ['sleeping', 'surfing', 'smiling'],
-    email: 'larrycole.ans@axel.com',
-    imageUrl: 'https://images.unsplash.com/photo-1687360440102-78d15c3e5045?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1332&q=80',
-
-  },
-  {
-    firstName: 'Justin',
-    lastName: 'Perkins',
-    city: 'Los Angeles',
-    country: 'USA',
-    hobbies: ['Hiking', 'Baeaway', 'Music'],
-    email: 'justinperkins@gmail.com',
-    imageUrl: 'https://images.unsplash.com/photo-1687360440102-78d15c3e5045?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1332&q=80',
-
-=======
     firstName: "Larry",
     lastName: "Cole",
     city: "Abuja",
@@ -68,10 +48,7 @@ const users = [
     email: "zeekay.ui@axel.com",
     imageURL:
       "https://www.istockphoto.com/photo/social-media-connection-and-woman-typing-on-a-phone-for-communication-app-and-chat-gm1460124878-494372704?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fusers&utm_term=users%3A%3A%3A",
->>>>>>> 7fd291a (I have written the required users list)
   },
-<<<<<<< HEAD
-=======
   {
     firstName: "Ola",
     lastName: "Haid",
@@ -103,28 +80,7 @@ const users = [
       "https://images.unsplash.com/photo-1689327021554-6c223aba4bfb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
   },
 
->>>>>>> 8eac864 (added two more users)
   {
-<<<<<<< HEAD
-    firstName: 'Robin',
-    lastName: 'Høj',
-    city: 'Austin',
-    country: 'USA',
-    hobbies: ['Acroyoga', 'Acting', 'Animating'],
-    email: 'rHoj@yahoo.com',
-    imageUrl: 'https://unsplash.com/photos/sJZzZSrqyeQ',
-
-  },
-  {
-    firstName: 'Troels',
-    lastName: 'Toft',
-    city: 'Helsingor',
-    country: 'Denmark',
-    hobbies: ['Anime', 'Art', 'Card games'],
-    email: 'ttoft125@AltSchl.io',
-    imageUrl: 'https://unsplash.com/photos/a-man-sitting-at-a-desk-with-a-cell-phone-HHGOrQVME-s',
-
-=======
     firstName: "Alex",
     lastName: "Moon",
     city: "Molde",
@@ -163,7 +119,37 @@ const users = [
     email: "proosa@example.com",
     imageURL:
       "https://plus.unsplash.com/premium_photo-1689177357760-90b18b4451aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzNHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
->>>>>>> 7fd291a (I have written the required users list)
+  },
+
+  {
+    firstName: 'Justin',
+    lastName: 'Perkins',
+    city: 'Los Angeles',
+    country: 'USA',
+    hobbies: ['Hiking', 'Baeaway', 'Music'],
+    email: 'justinperkins@gmail.com',
+    imageUrl: 'https://images.unsplash.com/photo-1687360440102-78d15c3e5045?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1332&q=80',
+
+  },
+  {
+    firstName: 'Robin',
+    lastName: 'Høj',
+    city: 'Austin',
+    country: 'USA',
+    hobbies: ['Acroyoga', 'Acting', 'Animating'],
+    email: 'rHoj@yahoo.com',
+    imageUrl: 'https://images.unsplash.com/photo-1594167154836-838be958f605?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=465&q=80'
+
+  },
+  {
+    firstName: 'Troels',
+    lastName: 'Toft',
+    city: 'Helsingor',
+    country: 'Denmark',
+    hobbies: ['Anime', 'Art', 'Card games'],
+    email: 'ttoft125@AltSchl.io',
+    imageUrl: 'https://plus.unsplash.com/premium_photo-1688700438179-b649d32b192f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80',
+
   },
 ];
 
