@@ -42,3 +42,58 @@ h6 {
 #__next {
   isolation: isolate;
 }
+
+
+/* feat/victor-aside */
+
+.aside_container_profile_image{
+ height: 100px;
+ width:100px;
+ border-radius: 50px;
+ margin: 15px auto 15px auto;
+ 
+
+}
+.aside{
+  float: right;
+  border:1px solid black;
+  height: 100vh;
+  padding: 20px;
+  background-color: rgb(94, 119, 110);
+  overflow: scroll;
+  overflow-x: hidden;
+  color: rgb(237, 234, 234);
+  text-align: center;
+  padding-bottom: 30px;
+  padding-right:25px;
+  /* display:flex; */
+  /* position:fixed;
+  right:900px; */
+}
+
+.schedule_town_hall,.schedule_live_class,.schedule_fun_friday{
+  border: 1px solid rgb(228, 220, 220);
+  margin-top: 5px;
+  padding: 8px;
+  border-radius: 5px;
+  color:rgb(194, 234, 247)
+}
+.aside_container_profile_schedule{
+  margin-top:40px;
+  
+  
+}
+.aside_container_profile_student{
+  font-size: 20px;
+}
+.aside_container_profile_info_about,.aside_container_profile_schedule_head{
+  color:rgb(56, 53, 53);
+  font-size: 20px;
+}
+.aside_container_content_name{
+color:rgb(202, 239, 53);
+}
+.aside_container_profile,.aside_container_profile_info{
+  color:rgb(223, 215, 215);
+
+}
