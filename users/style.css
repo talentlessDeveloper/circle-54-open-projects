@@ -14,13 +14,16 @@
 *::after {
   box-sizing: border-box;
 }
+
 * {
   margin: 0;
 }
+
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
+
 img,
 picture,
 video,
@@ -29,12 +32,14 @@ svg {
   display: block;
   max-width: 100%;
 }
+
 input,
 button,
 textarea,
 select {
   font: inherit;
 }
+
 p,
 h1,
 h2,
@@ -50,6 +55,121 @@ h6 {
   isolation: isolate;
 }
 
+/* feat/basit-table */
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* .data_table {
+  display: flex;
+  flex-direction: column;
+} */
+
+.data_table-nav {
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid rgb(155, 147, 168);
+  gap: 0px 2rem;
+}
+
+.data_table {
+  position: relative;
+  right: -300px;
+  background-color: #fff;
+  max-height: 100%;
+  width: 80%;
+  /* display: flex;
+    flex-direction: column;
+    */
+  max-width: 100%;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+.data_table-nav button {
+  border: none;
+  background-color: white;
+  font-weight: bold;
+  padding: 1rem .5rem .8rem 0;
+}
+
+.data_table-nav button:active {
+  border-bottom: 3px solid rgb(3, 168, 78);
+}
+
+.profile_image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  margin: 15px auto 15px auto;
+}
+
+.student_data-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); */
+}
+
+.student_data-table thead tr {
+  font-size: .95rem;
+  font-weight: bolder;
+  color: black;
+  align-items: center;
+  text-align: left;
+}
+
+th,
+td {
+  padding: 10px 10px;
+}
+
+tbody tr {
+  border-bottom: 1px solid rgb(160, 152, 174);
+}
+
+tbody tr:nth-of-type(odd) {
+  background-color: rgb(235, 255, 245);
+}
+
+tbody tr.active-row,
+tbody tr.active-row a {
+  font-weight: bold;
+  background-color: rgb(3, 168, 78);
+  color: #ffff;
+}
+
+.pagination {
+  display: inline-block;
+  position: relative;
+  left: 300px;
+  width: 50%;
+}
+
+.pagination label {
+  color: black;
+  padding: 4px 12px;
+  float: left;
+  margin: 0 .2rem;
+  border: 1px solid rgb(160, 152, 174);
+  border-radius: 100px;
+}
+
+.pagination .active {
+  background-color: rgb(3, 168, 78);
+  color: white;
+}
+
+.pagination .data_table-pager:hover {
+  background-color: rgb(3, 168, 78);
+  color: #fff;
+  cursor: pointer;
+}
+
+
 /* feat/victor-aside */
 
 .aside_profile_image {
@@ -58,6 +178,7 @@ h6 {
   border-radius: 50px;
   margin: 15px auto 15px auto;
 }
+
 .aside {
   right: 0;
   top: 0;
@@ -83,20 +204,25 @@ h6 {
   border-radius: 5px;
   color: rgb(194, 234, 247);
 }
+
 .aside_profile_schedule {
   margin-top: 40px;
 }
+
 .aside_profile_student {
   font-size: 20px;
 }
+
 .aside_profile_info_about,
 .aside_profile_schedule_head {
   color: rgb(56, 53, 53);
   font-size: 20px;
 }
+
 .aside_content_name {
   color: rgb(202, 239, 53);
 }
+
 .aside_profile,
 .aside_profile_info {
   color: rgb(223, 215, 215);
