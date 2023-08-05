@@ -227,3 +227,165 @@ tbody tr.active-row a {
 .aside_profile_info {
   color: rgb(223, 215, 215);
 }
+
+/* feat/jennifer-section */
+.section-container {
+  width: 88%;
+  margin: 0;
+}
+.section-header {
+  text-align: center;
+  margin-top: 25px;
+  margin-right: 50px;
+}
+.section-stats {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(7rem, 18.75rem));
+  margin-top: 32px;
+  padding-block: 32px;
+  border-radius: 5px;
+  justify-content: center;
+  gap: 2rem;
+}
+.section-stats p {
+  color: gray;
+  font-size: 15px;
+  margin-left: 100px;
+  margin-top: 5px;
+}
+.section-stats h2 {
+  font-size: 25px;
+  color: #03a84e;
+  font-weight: 900;
+  padding-left: 15px;
+  margin-left: 100px;
+}
+
+.sect-student {
+  width: 300px;
+  height: 120px;
+  padding: 20px;
+  background-color: rgb(253, 253, 253);
+  box-shadow: 2px 2px rgb(207, 207, 207);
+}
+.sect-student .icon {
+  background-color: #fc850e;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -8px;
+  margin-left: 100px;
+}
+
+.sect-teacher {
+  width: 300px;
+  height: 120px;
+  padding: 15px;
+  background-color: rgb(253, 253, 253);
+  box-shadow: 2px 2px rgb(207, 207, 207);
+}
+.sect-teacher .icon {
+  background-color: rgb(193, 219, 227);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -8px;
+  margin-left: 100px;
+}
+
+.sect-tracks {
+  width: 300px;
+  height: 120px;
+  padding: 15px;
+  background-color: rgb(253, 253, 253);
+  box-shadow: 2px 2px rgb(207, 207, 207);
+}
+.sect-tracks .icon {
+  background-color: #0bc960;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -8px;
+  margin-left: 100px;
+}
+.sect-average_age {
+  width: 300px;
+  height: 120px;
+  padding: 15px;
+  background-color: rgb(253, 253, 253);
+  box-shadow: 2px 2px rgb(207, 207, 207);
+}
+.sect-average_age .icon {
+  background-color: rgb(137, 56, 144);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -8px;
+  margin-left: 100px;
+}
+.sect-max_age {
+  width: 300px;
+  height: 120px;
+  padding: 15px;
+  background-color: rgb(253, 253, 253);
+  box-shadow: 2px 2px rgb(207, 207, 207);
+}
+.sect-max_age .icon {
+  background-color: rgb(228, 225, 225);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -8px;
+  margin-left: 100px;
+}
+.sect-min_age {
+  width: 300px;
+  height: 120px;
+  padding: 15px;
+  background-color: rgb(253, 253, 253);
+  box-shadow: 2px 2px rgb(207, 207, 207);
+}
+.sect-min_age .icon {
+  background-color: rgb(228, 225, 225);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -8px;
+  margin-left: 100px;
+}
+.icon {
+  font-size: 24px;
+}
+
+/* section.active .section-stats .sect-student:nth-of-type(odd) {
+  background: rgb(8, 0, 0);
+  border: 0.5rem;
+  border-radius: 1px;
+  padding-block: 0.5rem;
+} */
+
