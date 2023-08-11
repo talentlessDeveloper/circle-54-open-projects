@@ -54,6 +54,67 @@ h6 {
 #__next {
   isolation: isolate;
 }
+/* feat/ola-header */
+@media screen and (max-width: 992px){
+
+  
+  .header_container{
+    background-color: var(--primaryClr);
+    width:15.625rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    transition: all ease-in 500ms;
+  }
+
+  .header__items{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    gap: 0;
+  }
+
+  .header__link{
+    color:#fff
+  }
+
+}
+
+.header_container{
+  background-color: var(--primaryClr);
+  display: flex;
+  gap:5rem;
+  padding:1rem;
+}
+
+.header__items{
+  display:flex;
+  gap:2rem;
+}
+
+
+
+.header__link{
+  color:#fff
+}
+
+.header__itemsNo>svg{
+  cursor: pointer;
+}
+
+.altLogo {
+  color: var(--secondaryClr);
+  text-decoration: none;
+  font-family: "Lora", cursive;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.header__itemsNo{
+  display:flex;
+  gap:0.5rem;
+  margin-top: 15px;
+}
 
 /* feat/basit-table */
 
